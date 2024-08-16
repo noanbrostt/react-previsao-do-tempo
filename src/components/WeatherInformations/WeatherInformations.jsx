@@ -2,9 +2,6 @@ import './WeatherInformations.css'
 
 function WeatherInformations({weather}){
 
-    console.log(weather);
-    
-
     return (
         <div className='weather-container'>
             <h2>{weather.name}</h2>
